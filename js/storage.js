@@ -1,4 +1,4 @@
-const KEY = 'family-travel-map-v1';
+const KEY = 'family-travel-map-v2';
 
 export function load() {
   const raw = localStorage.getItem(KEY);

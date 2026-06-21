@@ -9,11 +9,17 @@
 <body>
   <h1>Family Travel Map</h1>
   <div id="map-container"></div>
-  <div id="legend">
-    <div class="legend-item visited">Visited</div>
-    <div class="legend-item unvisited">Not Visited</div>
-  </div>
+  <div id="legend"></div>
   <div id="status"></div>
+
+  <div id="member-panel" hidden>
+    <div id="panel-header">
+      <span id="panel-state-name"></span>
+      <button id="panel-close" aria-label="Close">&#x2715;</button>
+    </div>
+    <div id="panel-members"></div>
+  </div>
+
   <script type="module" src="/js/app.js"></script>
 </body>
 </html>
