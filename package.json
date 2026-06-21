@@ -1,0 +1,30 @@
+{
+  "name": "family-travel-map",
+  "version": "1.0.0",
+  "description": "Shows US Map with details on which state you have visited",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedeepman/family-travel-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/thedeepman/family-travel-map/issues"
+  },
+  "homepage": "https://github.com/thedeepman/family-travel-map#readme",
+  "devDependencies": {
+    "playwright": "^1.61.0",
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@svg-maps/usa": "^2.0.0"
+  }
+}
